@@ -1,8 +1,34 @@
+@'
 # Checkpoint 2 - DevOps Tools & Cloud Computing
+
+## Pre-requisitos
+
+Antes de executar o projeto, a maquina precisa ter:
+
+- Git instalado
+- Docker instalado e em execucao
+- PowerShell disponivel
+- Acesso a internet na primeira execucao, pois o Docker/Maven ira baixar as imagens e dependencias
+
+Este projeto foi testado em ambiente Windows com Docker Desktop e PowerShell.
+
+Nao e obrigatorio utilizar uma VM Ubuntu. A VM e apenas uma alternativa para executar Docker em nuvem ou em ambiente Linux. O requisito principal e que o Docker esteja instalado e funcionando.
+
+Para verificar se o Docker esta funcionando, execute:
+
+```powershell
+docker ps
+```
+
+Se aparecer uma tabela, mesmo vazia, o Docker esta pronto para uso.
+
+Caso apareca erro de conexao com o Docker, abra o Docker Desktop e aguarde ele iniciar completamente.
+
+---
 
 ## Como executar rapidamente
 
-Para executar o projeto, abra o PowerShell na raiz do repositorio clonado e rode os scripts abaixo na ordem.
+Com o Docker aberto e funcionando, abra o PowerShell na raiz do repositorio clonado e rode os scripts abaixo na ordem.
 
 ### 1. Criar rede Docker e volume do banco
 
@@ -266,3 +292,4 @@ https://github.com/deryksouza2006/MusicCheckpointDocker
 ## Video no YouTube
 
 Adicionar aqui o link do video.
+'@ | Set-Content -Path .\README.md -Encoding UTF8
