@@ -291,5 +291,6 @@ https://github.com/deryksouza2006/MusicCheckpointDocker
 
 ## Video no YouTube
 
-Adicionar aqui o link do video.
+https://youtu.be/L9IA4hRMPwI?si=g9tW7pfBbUjIGcHl
+
 '@ | Set-Content -Path .\README.md -Encoding UTF8
